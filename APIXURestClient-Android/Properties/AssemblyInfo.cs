@@ -7,11 +7,11 @@ using Android.App;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("APIXURestClient_Android")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Xamarin Android Library for consuming APIXU Weather REST API service.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Gabriele Coquillard")]
 [assembly: AssemblyProduct("APIXURestClient-Android")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
+[assembly: AssemblyCopyright("Gabriele Coquillard © 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]
@@ -26,5 +26,5 @@ using Android.App;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("0.2")]
+[assembly: AssemblyFileVersion("0.2")]
