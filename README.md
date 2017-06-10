@@ -12,4 +12,13 @@ What's currently available:
   - Get localized forecast weather data by city or town name
   
 ### Usage
-See sample for usage  
+See sample for usage.
+
+### NuGet Package
+For conveniency I provide a NuGet package. See Releases or 
+
+https://www.nuget.org/packages/APIXURestClient-Android/0.2.0
+
+
+or install via Package Manager
+>>> PM> Install-Package APIXURestClient-Android
