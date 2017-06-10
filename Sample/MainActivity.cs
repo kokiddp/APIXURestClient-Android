@@ -21,7 +21,7 @@ namespace APIXURestClientSample
 
             //Get weather by town synchronously
             //Current
-            APIXUCurrentWeather MyCurrenWeather = MyAPIXUClient.GetCurrentWeather("aosta");
+            APIXUCurrentWeather MyCurrentWeather = MyAPIXUClient.GetCurrentWeather("aosta");
             //Current localized
             APIXUCurrentWeather MyCurrentWeatherLocalized = MyAPIXUClient.GetCurrentWeatherLocalized("aosta", APIXUL10n.Italian);
             //Forecast
@@ -33,8 +33,8 @@ namespace APIXURestClientSample
         //Get weather by town asynchronously
         public async void GetWeatherAsync()
         {
-            APIXUCurrentWeather MyCurrenWeatherAsync = await MyAPIXUClient.GetCurrentWeatherAsync("aosta");
-            APIXUCurrentWeather MyCurrenWeatherLocalizedAsync = await MyAPIXUClient.GetCurrentWeatherLocalizedAsync("aosta", APIXUL10n.Italian);
+            APIXUCurrentWeather MyCurrentWeatherAsync = await MyAPIXUClient.GetCurrentWeatherAsync("aosta");
+            APIXUCurrentWeather MyCurrentWeatherLocalizedAsync = await MyAPIXUClient.GetCurrentWeatherLocalizedAsync("aosta", APIXUL10n.Italian);
             APIXUForecastWeather MyForecastWeatherAsync = await MyAPIXUClient.GetForecastWeatherAsync("aosta", 7);
             APIXUForecastWeather MyForecastWeatherLocalizedAsync = await MyAPIXUClient.GetForecastWeatherLocalizedAsync("aosta", 7, APIXUL10n.Italian);
         }

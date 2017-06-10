@@ -26,8 +26,6 @@ namespace APIXURestClientSample
 		
 		public static void UpdateIdValues()
 		{
-			global::APIXURestClient_Android.Resource.String.ApplicationName = global::APIXURestClientSample.Resource.String.ApplicationName;
-			global::APIXURestClient_Android.Resource.String.Hello = global::APIXURestClientSample.Resource.String.Hello;
 		}
 		
 		public partial class Attribute
