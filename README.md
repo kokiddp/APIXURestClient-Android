@@ -21,4 +21,4 @@ https://www.nuget.org/packages/APIXURestClient-Android/0.2.0
 
 
 or install via Package Manager
->>> PM> Install-Package APIXURestClient-Android
+> PM> Install-Package APIXURestClient-Android
