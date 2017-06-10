@@ -1,5 +1,5 @@
 # APIXURestClient-Android
-Xamarin Android Library for consuming APIXU Weather REST API service.
+Xamarin Android library for consuming APIXU Weather REST API service.
 
 This is a Xamarin Android library that allows your app to fetch data from https://www.apixu.com/
 
@@ -15,10 +15,11 @@ What's currently available:
 See sample for usage.
 
 ### NuGet Package
-For conveniency I provide a NuGet package. See Releases or 
+For conveniency I provide a NuGet package. See [Releases](https://github.com/kokiddp/APIXURestClient-Android/releases) or 
 
-https://www.nuget.org/packages/APIXURestClient-Android/0.2.0
-
+https://www.nuget.org/packages/APIXURestClient-Android
 
 or install via Package Manager
 > PM> Install-Package APIXURestClient-Android
+
+or search for it in Manage NuGet Packages in Visual Studio or whatever...
